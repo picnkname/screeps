@@ -64,6 +64,10 @@ global.config = {
     queue: false,
     spawn: false,
     mineral: false,
+    creepLog: {
+      roles: ['repairer'], // Roles for debug output, e.g. 'repairer'
+      rooms: ['E21N8'], // Rooms for debug output, e.g. 'E21N8'
+    },
   },
 
   tower: {
